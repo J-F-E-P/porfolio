@@ -1,4 +1,4 @@
-import DG, { QAll } from './modules/varConponets.js';
+import DG, { QAll } from './modules/varComponents.js';
 
 const language = DG('language');
 language.addEventListener('click', e => {
@@ -26,9 +26,9 @@ if (localStorage.getItem('lang')) {
 	document.documentElement.setAttribute('lang', localStorage.getItem('lang'));
 	language.dataset.lang = localStorage.getItem('lang');
 } else {
-	const defaultLagn = window.navigator.language.split('-');
-	changeLanguage(defaultLagn[0]);
-	language.dataset.lang = defaultLagn[0];
-	document.documentElement.setAttribute('lang', defaultLagn[0]);
-	localStorage.setItem('lang', defaultLagn[0]);
+	const defaultLangue = window.navigator.language.split('-');
+	changeLanguage(defaultLangue[0]);
+	language.dataset.lang = defaultLangue[0];
+	document.documentElement.setAttribute('lang', defaultLangue[0]);
+	localStorage.setItem('lang', defaultLangue[0]);
 }

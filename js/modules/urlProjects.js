@@ -3,7 +3,7 @@ export default [
 		id: 1,
 		title: 'NFT preview card component',
 		img: 'NFTpreviewCardComponent.png',
-		tecnologies: ['HTML', 'CSS'],
+		technologies: ['HTML', 'CSS'],
 		description:
 			'Este desafío solo de HTML y CSS es perfecto para cualquiera que esté comenzando o cualquiera que quiera un pequeño proyecto con el que jugar.',
 		urlCode:
@@ -15,7 +15,7 @@ export default [
 		id: 2,
 		title: 'FAQ Accordion Card',
 		img: 'FAQAccordionCard.png',
-		tecnologies: ['HTML', 'CSS', 'SCSS', 'JS'],
+		technologies: ['HTML', 'CSS', 'SCSS', 'JS'],
 		description:
 			'En este desafío, estarás construyendo un acordeón de preguntas frecuentes. Este es un patrón de front-end extremadamente común, ¡por lo que es una gran oportunidad para practicar!',
 		urlCode:
@@ -27,7 +27,7 @@ export default [
 		id: 3,
 		title: 'Ping single column coming soon page',
 		img: 'PingComingSoonPage.png',
-		tecnologies: ['HTML', 'CSS', 'SCSS', 'JS'],
+		technologies: ['HTML', 'CSS', 'SCSS', 'JS'],
 		description:
 			'Este desafío es ideal para principiantes y ofrece la oportunidad de practicar la validación básica de formularios del lado del cliente.',
 		urlCode:
@@ -39,7 +39,7 @@ export default [
 		id: 4,
 		title: 'Huddle landing page with a single introductory section',
 		img: 'HuddleLandingPageWithSingleIntroductorySection.png',
-		tecnologies: ['HTML', 'CSS'],
+		technologies: ['HTML', 'CSS'],
 		description:
 			'Un desafío perfecto para principiantes, este proyecto te ayudará a trabajar con un diseño de dos columnas.',
 		urlCode:

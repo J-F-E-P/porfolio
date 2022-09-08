@@ -18,4 +18,4 @@ document.addEventListener('click', e => {
 });
 
 import './project.js';
-import './languge.js';
+import './langue.js';

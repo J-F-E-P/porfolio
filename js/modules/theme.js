@@ -1,17 +1,17 @@
-import DG from './varConponets.js';
+import DG from './varComponents.js';
 const iconTheme = DG('iconTheme');
-const iconDefoult = DG('iconDefoult');
+const iconDefault = DG('iconDefault');
 const html = document.documentElement.classList;
-const iconThemeOpction = {
+const iconThemeOption = {
 	dark: 'sun',
 	light: 'moon',
 };
 const icon = IT => {
-	iconDefoult.setAttribute(
+	iconDefault.setAttribute(
 		'srcset',
-		`assets/icons/${iconThemeOpction[IT]}.svg`
+		`assets/icons/${iconThemeOption[IT]}.svg`
 	);
-	iconTheme.setAttribute('src', `assets/icons/${iconThemeOpction[IT]}.svg`);
+	iconTheme.setAttribute('src', `assets/icons/${iconThemeOption[IT]}.svg`);
 };
 const localStorageTheme = theme => {
 	html.toggle(theme);
